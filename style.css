@@ -1,0 +1,29 @@
+.img1{
+    width: 200px;
+}
+.header{
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+ .header select{
+    font-size: 20px;
+
+ }
+
+ .main{
+    display: flex;
+ }
+ body {
+    background-image: url(' https://img.freepik.com/free-vector/futuristic-science-lab-background_23-2148505015.jpg?w=1800&t=st=1701438535~exp=1701439135~hmac=89b128ac093a53a7acd9a97ba15e334e534f91a458d7f48587ed7e9a4643f0e2');
+    background-size: cover; /* This property ensures that the image covers the entire background */
+    background-position: center; /* This property centers the image */
+    background-repeat: no-repeat; /* This property prevents the image from repeating */
+  }
+
+  .main p{
+    color: white;
+  }
+  

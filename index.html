@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zedafs</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+        
+        .img1 {
+            width: 200px;
+        }
+
+        .header {
+            width: 100%;
+            margin: 20px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: 30px;
+        }
+
+        .header select {
+            font-size: 20px;
+        }
+
+        .main {
+            display: flex;
+        }
+
+        body {
+            background-image: url('https://cdn.vox-cdn.com/uploads/chorus_asset/file/19587186/PRC_Wallpaper_portrait.0.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 50px;
+        }
+
+        .main p {
+            color: #007BFF;
+            font-size: 30px;
+            text-align: justify;
+            font-family: 'Merriweather', serif;
+            font-weight: bold;
+            text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+        }
+    </style>
+    <script>
+        function redirectOnChange(selectElement) {
+            var selectedValue = selectElement.value;
+            if (selectedValue) {
+                window.location.href = selectedValue;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <h2>Zedafs </h2>
+        <select id="mySelect" onchange="redirectOnChange(this)">
+            <option value="">Select subject..</option>
+            <option value="sci.html"><a href="https://www.youtube.com/watch?v=5iziiyChtr8&ab_channel=XylemClass10CBSE">Science</a></option>
+            <option value="Mathematics.html">Mathematics</option>
+            <option value="eng.html">English</option>
+        </select>
+    </div>
+    <div class="main">
+        <p>Welcome to Computer Club Project 1, your premier online learning hub for all things tech and education! Immerse yourself in a world of knowledge with our innovative blend of video classes, Study Question Papers (SQP), and interactive PowerPoint presentations (PPT).<br><br>
+            Key Features: <br><br>
+            Tech-Focused Video Classes: Explore our extensive library of video classes, where seasoned instructors guide you through the intricacies of various tech subjects. From programming languages to hardware essentials, we've got your learning needs covered.<br><br>
+            Dynamic Study Question Papers (SQP): Test your skills with our specially curated SQPs. Crafted to mimic real-world challenges, these practice papers are your gateway to mastering the technical know-how required in today's fast-paced digital landscape.<br><br>
+            Visual Learning with PPT: Simplify complex concepts with our interactive PowerPoint presentations. Visualize ideas, dissect algorithms, and enhance your understanding through engaging and informative slides.<br><br>
+            Personalized Learning Paths: Tailor your learning journey with customized study plans. Set goals, track your progress, and receive personalized recommendations to ensure you're on the path to tech mastery.<br><br>
+            Community Collaboration: Connect with like-minded tech enthusiasts through our vibrant community forums. Share insights, seek advice, and collaborate on exciting tech projects. Learning is not just solitary—it's a shared adventure!<br><br>
+            On-the-Go Learning: Access your study materials anytime, anywhere. Our mobile-friendly design ensures you can continue your tech education journey seamlessly, whether you're at home or on the move.<br><br>
+            Embark on your tech education odyssey with Computer Club Project 1. Whether you're a budding coder, aspiring hardware expert, or a curious learner, we're here to fuel your passion for technology.<br><br>
+            Join us and elevate your tech knowledge at Computer Club Project 1 – Where Tech Meets Learning!<br>
+        </p>
+    </div>
+</body>
+
+</html>

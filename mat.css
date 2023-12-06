@@ -1,0 +1,53 @@
+.header{
+  <style>
+
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+</style>
+
+    margin: 30px;
+    width: 100%;
+  
+    text-align: center;
+    
+}
+body {
+    background-image: url('https://get.wallhere.com/photo/liquid-light-orange-lighting-organism-red-fluid-magenta-ART-pattern-electric-blue-geological-phenomenon-gas-font-graphics-design-automotive-design-event-visual-arts-wind-wave-fractal-art-wave-neon-graphic-design-paint-metal-1995427.jpg');
+    background-size: cover ; /* This property ensures that the image covers the entire background */
+    background-position: center; /* This property centers the image */
+    background-repeat: no-repeat; /* This property prevents the image from repeating */
+ 
+
+}
+  h1{
+    font-size: 100px;
+    color: #ff0000;
+    text-align;
+    
+
+  }
+  .para{
+    text-align:center;
+        font-size: 23px;
+        color: rgb(255, 255, 255);
+        font-family: 'Space Grotesk', sans-serif;}
+  .header select{font-size: 20px;}
+
+    .pdf{padding-left: 250px;
+      padding-top: 20px;
+      justify-content: center;
+      align-items: center; }
+
+      .pdf2{padding-left: 100px;
+        padding-top: 20px;
+        justify-content: center;
+        align-items: center; }
+ 
+   
+ 
+      h2{text-align: center;
+      color: aqua;
+    padding-top: 50px; }
+    h2{text-align: center;
+      color: aqua;
+    padding-top: 50px; }
